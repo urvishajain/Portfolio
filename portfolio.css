@@ -6,7 +6,7 @@ html {
 
 #home {
     margin-left: -2%;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("HomePage.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://github.com/urvishajain/Portfolio/blob/main/images/HomePage.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
