@@ -384,11 +384,27 @@ html {
     height: 100%;
     margin-left: -2%;
     margin-right: -2%;
-    margin-top: -5%;
+    margin-top: 8%;
     background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
 }
 
 #achievements h2 {
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 4em;
+    color: #fff;
+    padding-left: 4%;
+}
+
+#others {
+    height: 100%;
+    margin-left: -2%;
+    margin-right: -2%;
+    margin-top: -10%;
+    background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
+}
+
+#others h2 {
     padding-top: 5%;
     font-family: 'Lato', sans-serif;
     font-size: 4em;
@@ -416,7 +432,7 @@ html {
     height: 100%;
     margin-left: -2%;
     margin-right: -2%;
-    margin-top: -5%;
+    margin-top: -7%;
     background-image: linear-gradient(rgba(30, 30, 30, 1), rgba(0, 0, 0, 1));
 }
 
