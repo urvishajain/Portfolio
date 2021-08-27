@@ -396,6 +396,22 @@ html {
     padding-left: 4%;
 }
 
+#certifi {
+    height: 100%;
+    margin-left: -2%;
+    margin-right: -2%;
+    margin-top: -5%;
+    background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
+}
+
+#certifi h2 {
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 4em;
+    color: #fff;
+    padding-left: 4%;
+}
+
 #interests {
     height: 100%;
     margin-left: -2%;
