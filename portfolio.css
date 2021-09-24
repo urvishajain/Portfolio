@@ -88,7 +88,7 @@ html {
     top: 0;
     left: 0;
     text-align: center;
-    line-height: 2;
+    line-height: 3;
 }
 
 #navbar ul {
@@ -100,7 +100,7 @@ html {
 #navbar li {
     display: inline-block;
     font-family: 'Lexend', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: white;
     width: 16.42%;
 }
