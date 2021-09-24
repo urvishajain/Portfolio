@@ -42,11 +42,14 @@ html {
 }
 
 .fa {
-    margin-top: 1%;
+    margin-top: 10%;
     font-size: 30px;
-    width: 50px;
-    text-align: center;
+    width: 55px;
+    /* text-align: center; */
     text-decoration: none;
+    /* margin-left: 2em; */
+    /* padding-left: 100%; */
+    /* padding-right: -100%; */
 }
 
 .fa-envelope {
@@ -100,9 +103,9 @@ html {
 #navbar li {
     display: inline-block;
     font-family: 'Lexend', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: white;
-    width: 16.42%;
+    width: 16.00%;
 }
 
 #navbar li a {
@@ -532,4 +535,9 @@ html {
     font-family: 'Lato', sans-serif;
     font-size: 1.2em;
     line-height: 1;
+}
+
+.links {
+    margin-top: 2%;
+    margin-left: 4.5%;
 }
