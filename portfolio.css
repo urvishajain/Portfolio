@@ -1,543 +1,1000 @@
-body,
-html {
-    background-color: black;
-    height: 100%;
-}
-
-#home {
-    margin-left: -2%;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/HomePage.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#home h1 {
-    font-family: 'Lato', sans-serif;
-    font-size: 5em;
-    color: #fff;
-    padding-top: 6%;
-    padding-left: 10%;
-    padding-right: 30%;
-}
-
-#home p {
-    text-align: justify;
-    font-family: 'Lato', sans-serif;
-    font-size: 1em;
-    color: #fff;
-    margin-top: -2%;
-    padding-left: 10%;
-    padding-right: 60%;
-}
-
-#home ul {
-    list-style-type: none;
-    padding-left: 5%;
-}
-
-#home li {
-    display: inline-block;
-}
-
-.fa {
-    margin-top: 10%;
-    font-size: 30px;
-    width: 55px;
-    /* text-align: center; */
-    text-decoration: none;
-    /* margin-left: 2em; */
-    /* padding-left: 100%; */
-    /* padding-right: -100%; */
-}
-
-.fa-envelope {
-    color: white;
-}
-
-.fa-envelope:hover {
-    color: #AAA;
-}
-
-.fa-linkedin {
-    color: white;
-}
-
-.fa-linkedin:hover {
-    color: #AAA;
-}
-
-.fa-github {
-    color: white;
-}
-
-.fa-github:hover {
-    color: #AAA;
-}
-
-.fa-twitter {
-    color: white;
-}
-
-.fa-twitter:hover {
-    color: #AAA;
-}
-
-#navbar {
-    position: fixed;
-    background-color: rgba(20, 20, 20, 1);
-    width: 100%;
-    top: 0;
-    left: 0;
-    text-align: center;
-    line-height: 3;
-}
-
-#navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#navbar li {
-    display: inline-block;
-    font-family: 'Lexend', sans-serif;
-    font-size: 1em;
-    color: white;
-    width: 16.00%;
-}
-
-#navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-}
-
-#navbar li a:hover {
-    background-color: /*rgba(100, 100, 100, 0.5)*/
-    rgba(250, 20, 100, 0.5);
-}
-
-#education {
-    height: 100%;
-    margin-left: -2%;
-    margin-right: -2%;
-    margin-top: -2%;
-    background-image: linear-gradient(black, rgba(30, 30, 30, 1));
-}
-
-#education h2 {
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 4em;
-    color: #fff;
-    padding-left: 4%;
-}
-
-.card {
-    border-radius: 5px 5px 5px 5px;
-    background-color: rgba(70, 70, 70, 0.8);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    margin-right: 5%;
-    margin-left: 6%;
-    margin-bottom: 4%;
-    margin-top: -2%;
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    padding-top: 1%;
-    padding-left: 2%;
-    padding-bottom: 1%;
-    transition: 0.5s;
-}
-
-.card:hover {
-    margin-right: 5.3%;
-    margin-left: 5.7%;
-    margin-bottom: 4.3%;
-    margin-top: -2.3%;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
-}
-
-.lo {
-    line-height: 1px;
-    font-size: 2em;
-}
-
-.lt {
-    font-size: 1.5em;
-}
-
-.lth {
-    font-size: 1.3em;
-    line-height: 5px;
-}
-
-#projects {
-    height: 100%;
-    margin-left: -2%;
-    margin-right: -2%;
-    margin-top: -5%;
-    background-image: linear-gradient(rgba(30, 30, 30, 1), rgba(60, 60, 60, 1));
-}
-
-#projects h2 {
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 4em;
-    color: #fff;
-    padding-left: 4%;
-}
-
-.pcard {
-    float: left;
-    width: 20%;
-    border-radius: 20px 20px 20px 20px;
-    background-color: rgba(20, 20, 20, 1);
-    /*margin-right: 5%;
+                                        body,
+                                        html {
+                                            background-color: black;
+                                            height: 100%;
+                                        }
+                                        
+                                        #home {
+                                            margin-left: -2%;
+                                            background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/HomePage.jpg");
+                                            height: 100%;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                        }
+                                        
+                                        #home h1 {
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 5em;
+                                            color: #fff;
+                                            padding-top: 6%;
+                                            padding-left: 10%;
+                                            padding-right: 30%;
+                                        }
+                                        
+                                        #home p {
+                                            text-align: justify;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 1em;
+                                            color: #fff;
+                                            margin-top: -2%;
+                                            padding-left: 10%;
+                                            padding-right: 60%;
+                                        }
+                                        
+                                        #home ul {
+                                            list-style-type: none;
+                                            padding-left: 5%;
+                                        }
+                                        
+                                        #home li {
+                                            display: inline-block;
+                                        }
+                                        
+                                        .fa {
+                                            margin-top: 10%;
+                                            font-size: 30px;
+                                            width: 55px;
+                                            /* text-align: center; */
+                                            text-decoration: none;
+                                            /* margin-left: 2em; */
+                                            /* padding-left: 100%; */
+                                            /* padding-right: -100%; */
+                                        }
+                                        
+                                        .fa-envelope {
+                                            color: white;
+                                        }
+                                        
+                                        .fa-envelope:hover {
+                                            color: #AAA;
+                                        }
+                                        
+                                        .fa-linkedin {
+                                            color: white;
+                                        }
+                                        
+                                        .fa-linkedin:hover {
+                                            color: #AAA;
+                                        }
+                                        
+                                        .fa-github {
+                                            color: white;
+                                        }
+                                        
+                                        .fa-github:hover {
+                                            color: #AAA;
+                                        }
+                                        
+                                        .fa-twitter {
+                                            color: white;
+                                        }
+                                        
+                                        .fa-twitter:hover {
+                                            color: #AAA;
+                                        }
+                                        
+                                        #navbar {
+                                            position: fixed;
+                                            background-color: rgba(20, 20, 20, 1);
+                                            width: 100%;
+                                            top: 0;
+                                            left: 0;
+                                            text-align: center;
+                                            line-height: 3;
+                                        }
+                                        
+                                        #navbar ul {
+                                            list-style-type: none;
+                                            margin: 0;
+                                            padding: 0;
+                                        }
+                                        
+                                        #navbar li {
+                                            display: inline-block;
+                                            font-family: 'Lexend', sans-serif;
+                                            font-size: 1.2em;
+                                            color: white;
+                                            width: 16.00%;
+                                        }
+                                        
+                                        #navbar li a {
+                                            display: block;
+                                            color: white;
+                                            text-align: center;
+                                            text-decoration: none;
+                                            width: 100%;
+                                        }
+                                        
+                                        #navbar li a:hover {
+                                            background-color: /*rgba(100, 100, 100, 0.5)*/
+                                            rgba(250, 20, 100, 0.5);
+                                        }
+                                        
+                                        #education {
+                                            height: 100%;
+                                            margin-left: -2%;
+                                            margin-right: -2%;
+                                            margin-top: -2%;
+                                            background-image: linear-gradient(black, rgba(30, 30, 30, 1));
+                                        }
+                                        
+                                        #education h2 {
+                                            padding-top: 5%;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 4em;
+                                            color: #fff;
+                                            padding-left: 4%;
+                                        }
+                                        
+                                        .card {
+                                            border-radius: 5px 5px 5px 5px;
+                                            background-color: rgba(70, 70, 70, 0.8);
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+                                            margin-right: 5%;
+                                            margin-left: 6%;
+                                            margin-bottom: 4%;
+                                            margin-top: -2%;
+                                            font-family: 'Raleway', sans-serif;
+                                            color: white;
+                                            padding-top: 1%;
+                                            padding-left: 2%;
+                                            padding-bottom: 1%;
+                                            transition: 0.5s;
+                                        }
+                                        
+                                        .card:hover {
+                                            margin-right: 5.3%;
+                                            margin-left: 5.7%;
+                                            margin-bottom: 4.3%;
+                                            margin-top: -2.3%;
+                                            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+                                        }
+                                        
+                                        .lo {
+                                            line-height: 1px;
+                                            font-size: 2em;
+                                        }
+                                        
+                                        .lt {
+                                            font-size: 1.5em;
+                                        }
+                                        
+                                        .lth {
+                                            font-size: 1.3em;
+                                            line-height: 5px;
+                                        }
+                                        
+                                        #projects {
+                                            height: 100%;
+                                            margin-left: -2%;
+                                            margin-right: -2%;
+                                            margin-top: -5%;
+                                            background-image: linear-gradient(rgba(30, 30, 30, 1), rgba(60, 60, 60, 1));
+                                        }
+                                        
+                                        #projects h2 {
+                                            padding-top: 5%;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 4em;
+                                            color: #fff;
+                                            padding-left: 4%;
+                                        }
+                                        
+                                        .pcard {
+                                            float: left;
+                                            width: 20%;
+                                            border-radius: 20px 20px 20px 20px;
+                                            background-color: rgba(20, 20, 20, 1);
+                                            /*margin-right: 5%;
     */
-    margin-left: 4%;
-    /*margin-bottom: 4%;*/
-    margin-top: -2%;
-    color: white;
-    /*padding-top: 1%;
+                                            margin-left: 4%;
+                                            /*margin-bottom: 4%;*/
+                                            margin-top: -2%;
+                                            color: white;
+                                            /*padding-top: 1%;
     padding-left: 2%;
     padding-bottom: 1%;*/
-    box-shadow: 4px 4px 6px 0.5px rgba(20, 20, 20, 0.5);
-}
-
-.pcard img {
-    margin-top: 7%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 6%;
-}
-
-.pcard h4 {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-size: 1.2em;
-}
-
-.pcard p {
-    text-align: justify;
-    text-justify: inter-word;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.9em;
-    margin-top: -2%;
-}
-
-.pcard button {
-    transition: 0.3s;
-}
-
-.pcard button:hover {
-    background-color: rgba(255, 255, 255, 0.7);
-    font-weight: 600;
-    border-width: 3px;
-}
-
-.try {
-    border: 2px solid rgba(200, 0, 80, 1);
-    background-color: transparent;
-    color: rgba(200, 0, 80, 1);
-    padding: 3%;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.8em;
-    border-radius: 10px;
-    margin-left: 8%;
-    margin-bottom: 6%;
-}
-
-.github {
-    border: 2px solid rgba(200, 0, 80, 1);
-    background-color: transparent;
-    color: rgba(200, 0, 80, 1);
-    padding: 3%;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.8em;
-    border-radius: 10px;
-    margin-left: 9%;
-    margin-bottom: 6%;
-}
-
-.onlygithub {
-    border: 2px solid rgba(200, 0, 80, 1);
-    background-color: transparent;
-    color: rgba(200, 0, 80, 1);
-    padding: 3%;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.8em;
-    border-radius: 10px;
-    margin-left: 31%;
-    margin-bottom: 6%;
-}
-
-.python {
-    border: 2px solid rgba(200, 0, 80, 1);
-    background-color: transparent;
-    color: rgba(200, 0, 80, 1);
-    padding: 3%;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.8em;
-    border-radius: 10px;
-    margin-left: 20%;
-    margin-bottom: 6%;
-}
-
-.kotlin {
-    border: 2px solid rgba(200, 0, 80, 1);
-    background-color: transparent;
-    color: rgba(200, 0, 80, 1);
-    padding: 3%;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.8em;
-    border-radius: 10px;
-    margin-left: 9%;
-    margin-bottom: 6%;
-}
-
-#experience {
-    height: 100%;
-    margin-left: -2%;
-    margin-right: -2%;
-    margin-top: -5%;
-    background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(90, 90, 90, 1));
-    /* margin-bottom: 20%; */
-}
-
-#experience h2 {
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 4em;
-    color: #fff;
-    padding-left: 4%;
-}
-
-.ecard {
-    float: left;
-    width: 42%;
-    /* padding: 1%; */
-    margin-left: 4%;
-    border-radius: 20px 20px 20px 20px;
-    background-color: rgba(20, 20, 20, 0.7);
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    transition: 0.5s;
-}
-
-.ecard:hover {
-    margin-left: 3.8%;
-    margin-top: -0.2%;
-    box-shadow: 4px 4px 5px 2px rgba(50, 50, 50, 0.8);
-}
-
-.ecard img {
-    float: left;
-    border-radius: 50%;
-    margin: 3%;
-}
-
-.textcard {
-    float: left;
-}
-
-#experience h4 {
-    font-weight: bold;
-    font-size: 2em;
-    line-height: 0.1;
-}
-
-#experience h5 {
-    font-size: 1.4em;
-    line-height: 0.1;
-}
-
-.below {
-    float: left;
-    margin-top: 3%;
-}
-
-.top {
-    float: left;
-    margin-bottom: 5%;
-}
-
-#skills {
-    height: 100%;
-    margin-left: -2%;
-    margin-right: -2%;
-    margin-top: -5%;
-    background-image: linear-gradient(rgba(90, 90, 90, 1), rgba(60, 60, 60, 1));
-}
-
-#skills h2 {
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 4em;
-    color: #fff;
-    padding-left: 4%;
-}
-
-#achievements {
-    height: 100%;
-    margin-left: -2%;
-    margin-right: -2%;
-    margin-top: 8%;
-    background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
-}
-
-#achievements h2 {
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 4em;
-    color: #fff;
-    padding-left: 4%;
-}
-
-#others {
-    height: 100%;
-    margin-left: -2%;
-    margin-right: -2%;
-    margin-top: -5%;
-    background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
-}
-
-#others h2 {
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 4em;
-    color: #fff;
-    padding-left: 4%;
-}
-
-#certifi {
-    height: 100%;
-    margin-left: -2%;
-    margin-right: -2%;
-    margin-top: -2%;
-    background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
-}
-
-#certifi h2 {
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 4em;
-    color: #fff;
-    padding-left: 4%;
-}
-
-#interests {
-    height: 100%;
-    margin-left: -2%;
-    margin-right: -2%;
-    margin-top: -7%;
-    background-image: linear-gradient(rgba(30, 30, 30, 1), rgba(0, 0, 0, 1));
-}
-
-#interests h2 {
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 4em;
-    color: #fff;
-    padding-left: 4%;
-}
-
-#ac {
-    margin-top: -2%;
-    margin-left: 4%;
-}
-
-#ac li {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    font-size: 2em;
-    line-height: 3;
-}
-
-.cio {
-    border: 2px solid rgba(200, 0, 80, 1);
-    background-color: transparent;
-    color: rgba(200, 0, 80, 1);
-    font-family: 'Merriweather', serif;
-    font-size: 0.5em;
-    padding: 0.5%;
-    margin-left: 2%;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-
-.cio:hover {
-    background-color: rgba(200, 0, 80, 1);
-    color: #fff;
-}
-
-.icard {
-    float: left;
-    width: 20%;
-    border-radius: 20px 20px 20px 20px;
-    background-color: rgba(255, 255, 255, 1);
-    /*margin-right: 5%;
+                                            box-shadow: 4px 4px 6px 0.5px rgba(20, 20, 20, 0.5);
+                                        }
+                                        
+                                        .pcard img {
+                                            margin-top: 7%;
+                                            margin-left: 5%;
+                                            margin-right: 5%;
+                                            border-radius: 6%;
+                                        }
+                                        
+                                        .pcard h4 {
+                                            font-family: 'Raleway', sans-serif;
+                                            text-align: center;
+                                            font-size: 1.2em;
+                                        }
+                                        
+                                        .pcard p {
+                                            text-align: justify;
+                                            text-justify: inter-word;
+                                            padding-left: 5%;
+                                            padding-right: 5%;
+                                            font-family: 'Open Sans', sans-serif;
+                                            font-size: 0.9em;
+                                            margin-top: -2%;
+                                        }
+                                        
+                                        .pcard button {
+                                            transition: 0.3s;
+                                        }
+                                        
+                                        .pcard button:hover {
+                                            background-color: rgba(255, 255, 255, 0.7);
+                                            font-weight: 600;
+                                            border-width: 3px;
+                                        }
+                                        
+                                        .try {
+                                            border: 2px solid rgba(200, 0, 80, 1);
+                                            background-color: transparent;
+                                            color: rgba(200, 0, 80, 1);
+                                            padding: 3%;
+                                            font-family: 'Roboto Mono', monospace;
+                                            font-size: 0.8em;
+                                            border-radius: 10px;
+                                            margin-left: 8%;
+                                            margin-bottom: 6%;
+                                        }
+                                        
+                                        .github {
+                                            border: 2px solid rgba(200, 0, 80, 1);
+                                            background-color: transparent;
+                                            color: rgba(200, 0, 80, 1);
+                                            padding: 3%;
+                                            font-family: 'Roboto Mono', monospace;
+                                            font-size: 0.8em;
+                                            border-radius: 10px;
+                                            margin-left: 9%;
+                                            margin-bottom: 6%;
+                                        }
+                                        
+                                        .onlygithub {
+                                            border: 2px solid rgba(200, 0, 80, 1);
+                                            background-color: transparent;
+                                            color: rgba(200, 0, 80, 1);
+                                            padding: 3%;
+                                            font-family: 'Roboto Mono', monospace;
+                                            font-size: 0.8em;
+                                            border-radius: 10px;
+                                            margin-left: 31%;
+                                            margin-bottom: 6%;
+                                        }
+                                        
+                                        .python {
+                                            border: 2px solid rgba(200, 0, 80, 1);
+                                            background-color: transparent;
+                                            color: rgba(200, 0, 80, 1);
+                                            padding: 3%;
+                                            font-family: 'Roboto Mono', monospace;
+                                            font-size: 0.8em;
+                                            border-radius: 10px;
+                                            margin-left: 20%;
+                                            margin-bottom: 6%;
+                                        }
+                                        
+                                        .kotlin {
+                                            border: 2px solid rgba(200, 0, 80, 1);
+                                            background-color: transparent;
+                                            color: rgba(200, 0, 80, 1);
+                                            padding: 3%;
+                                            font-family: 'Roboto Mono', monospace;
+                                            font-size: 0.8em;
+                                            border-radius: 10px;
+                                            margin-left: 9%;
+                                            margin-bottom: 6%;
+                                        }
+                                        
+                                        #experience {
+                                            height: 100%;
+                                            margin-left: -2%;
+                                            margin-right: -2%;
+                                            margin-top: -5%;
+                                            background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(90, 90, 90, 1));
+                                            /* margin-bottom: 20%; */
+                                        }
+                                        
+                                        #experience h2 {
+                                            padding-top: 5%;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 4em;
+                                            color: #fff;
+                                            padding-left: 4%;
+                                        }
+                                        
+                                        .ecard {
+                                            float: left;
+                                            width: 42%;
+                                            /* padding: 1%; */
+                                            margin-left: 4%;
+                                            border-radius: 20px 20px 20px 20px;
+                                            background-color: rgba(20, 20, 20, 0.7);
+                                            font-family: 'Raleway', sans-serif;
+                                            color: white;
+                                            transition: 0.5s;
+                                        }
+                                        
+                                        .ecard:hover {
+                                            margin-left: 3.8%;
+                                            margin-top: -0.2%;
+                                            box-shadow: 4px 4px 5px 2px rgba(50, 50, 50, 0.8);
+                                        }
+                                        
+                                        .ecard img {
+                                            float: left;
+                                            border-radius: 50%;
+                                            margin: 3%;
+                                        }
+                                        
+                                        .textcard {
+                                            float: left;
+                                        }
+                                        
+                                        #experience h4 {
+                                            font-weight: bold;
+                                            font-size: 2em;
+                                            line-height: 0.1;
+                                        }
+                                        
+                                        #experience h5 {
+                                            font-size: 1.4em;
+                                            line-height: 0.1;
+                                        }
+                                        
+                                        .below {
+                                            float: left;
+                                            margin-top: 3%;
+                                        }
+                                        
+                                        .top {
+                                            float: left;
+                                            margin-bottom: 5%;
+                                        }
+                                        
+                                        #skills {
+                                            height: 100%;
+                                            margin-left: -2%;
+                                            margin-right: -2%;
+                                            margin-top: -5%;
+                                            background-image: linear-gradient(rgba(90, 90, 90, 1), rgba(60, 60, 60, 1));
+                                        }
+                                        
+                                        #skills h2 {
+                                            padding-top: 5%;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 4em;
+                                            color: #fff;
+                                            padding-left: 4%;
+                                        }
+                                        
+                                        #achievements {
+                                            height: 100%;
+                                            margin-left: -2%;
+                                            margin-right: -2%;
+                                            margin-top: 8%;
+                                            background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
+                                        }
+                                        
+                                        #achievements h2 {
+                                            padding-top: 5%;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 4em;
+                                            color: #fff;
+                                            padding-left: 4%;
+                                        }
+                                        
+                                        #others {
+                                            height: 100%;
+                                            margin-left: -2%;
+                                            margin-right: -2%;
+                                            margin-top: -5%;
+                                            background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
+                                        }
+                                        
+                                        #others h2 {
+                                            padding-top: 5%;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 4em;
+                                            color: #fff;
+                                            padding-left: 4%;
+                                        }
+                                        
+                                        #certifi {
+                                            height: 100%;
+                                            margin-left: -2%;
+                                            margin-right: -2%;
+                                            margin-top: -2%;
+                                            background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
+                                        }
+                                        
+                                        #certifi h2 {
+                                            padding-top: 5%;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 4em;
+                                            color: #fff;
+                                            padding-left: 4%;
+                                        }
+                                        
+                                        #interests {
+                                            height: 100%;
+                                            margin-left: -2%;
+                                            margin-right: -2%;
+                                            margin-top: -7%;
+                                            background-image: linear-gradient(rgba(30, 30, 30, 1), rgba(0, 0, 0, 1));
+                                        }
+                                        
+                                        #interests h2 {
+                                            padding-top: 5%;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 4em;
+                                            color: #fff;
+                                            padding-left: 4%;
+                                        }
+                                        
+                                        #ac {
+                                            margin-top: -2%;
+                                            margin-left: 4%;
+                                        }
+                                        
+                                        #ac li {
+                                            font-family: 'Raleway', sans-serif;
+                                            color: white;
+                                            font-size: 2em;
+                                            line-height: 3;
+                                        }
+                                        
+                                        .cio {
+                                            border: 2px solid rgba(200, 0, 80, 1);
+                                            background-color: transparent;
+                                            color: rgba(200, 0, 80, 1);
+                                            font-family: 'Merriweather', serif;
+                                            font-size: 0.5em;
+                                            padding: 0.5%;
+                                            margin-left: 2%;
+                                            border-radius: 5px;
+                                            transition: 0.5s;
+                                        }
+                                        
+                                        .cio:hover {
+                                            background-color: rgba(200, 0, 80, 1);
+                                            color: #fff;
+                                        }
+                                        
+                                        .icard {
+                                            float: left;
+                                            width: 20%;
+                                            border-radius: 20px 20px 20px 20px;
+                                            background-color: rgba(255, 255, 255, 1);
+                                            /*margin-right: 5%;
     */
-    margin-left: 4%;
-    /*margin-bottom: 4%;*/
-    margin-top: -2%;
-    color: black;
-    /*padding-top: 1%;
+                                            margin-left: 4%;
+                                            /*margin-bottom: 4%;*/
+                                            margin-top: -2%;
+                                            color: black;
+                                            /*padding-top: 1%;
     padding-left: 2%;
     padding-bottom: 1%;*/
-}
-
-.icard .dp {
-    float: left;
-    border-radius: 50%;
-    margin-left: 4%;
-    margin-top: 4%;
-}
-
-.icard .un {
-    float: left;
-    margin-left: 5%;
-    font-family: 'Lato', sans-serif;
-}
-
-.icard .caption {
-    padding-left: 4%;
-    padding-right: 4%;
-    margin-top: 3%;
-    margin-bottom: 5%;
-    font-size: 0.95em;
-    font-family: 'Lato', sans-serif;
-}
-
-.row {
-    margin-top: -2%;
-    width: 100%;
-    background-image: linear-gradient(to right, rgba(120, 120, 120, 1), rgba(0, 0, 0, 1), rgba(120, 120, 120, 1));
-    color: white;
-    text-align: center;
-}
-
-.row h4 {
-    padding-top: 1.1%;
-    margin-bottom: -0.7%;
-    font-family: 'Overpass', sans-serif;
-    font-size: 1.5em;
-    line-height: 1;
-}
-
-.row p {
-    padding-bottom: 1.1%;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.0em;
-    line-height: 1;
-}
-
-.links {
-    margin-top: 2%;
-    margin-left: 4.5%;
-}
+                                        }
+                                        
+                                        .icard .dp {
+                                            float: left;
+                                            border-radius: 50%;
+                                            margin-left: 4%;
+                                            margin-top: 4%;
+                                        }
+                                        
+                                        .icard .un {
+                                            float: left;
+                                            margin-left: 5%;
+                                            font-family: 'Lato', sans-serif;
+                                        }
+                                        
+                                        .icard .caption {
+                                            padding-left: 4%;
+                                            padding-right: 4%;
+                                            margin-top: 3%;
+                                            margin-bottom: 5%;
+                                            font-size: 0.95em;
+                                            font-family: 'Lato', sans-serif;
+                                        }
+                                        
+                                        .row {
+                                            margin-top: -2%;
+                                            width: 100%;
+                                            background-image: linear-gradient(to right, rgba(120, 120, 120, 1), rgba(0, 0, 0, 1), rgba(120, 120, 120, 1));
+                                            color: white;
+                                            text-align: center;
+                                        }
+                                        
+                                        .row h4 {
+                                            padding-top: 1.1%;
+                                            margin-bottom: -0.7%;
+                                            font-family: 'Overpass', sans-serif;
+                                            font-size: 1.5em;
+                                            line-height: 1;
+                                        }
+                                        
+                                        .row p {
+                                            padding-bottom: 1.1%;
+                                            font-family: 'Lato', sans-serif;
+                                            font-size: 1.0em;
+                                            line-height: 1;
+                                        }
+                                        
+                                        .links {
+                                            margin-top: 2%;
+                                            margin-left: 4.5%;
+                                        }
+                                        
+                                        @media (max-width: 952px) {
+                                            #home h1 {
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: 2.7em;
+                                                color: #fff;
+                                                padding-top: 60%;
+                                                padding-left: 10%;
+                                                padding-right: 40%;
+                                            }
+                                            #home p {
+                                                text-align: justify;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: .75em;
+                                                color: #fff;
+                                                margin-top: -2%;
+                                                padding-left: 10%;
+                                                padding-right: 40%;
+                                            }
+                                            .fa {
+                                                margin-top: 10%;
+                                                font-size: 25px;
+                                                width: 55px;
+                                                /* text-align: center; */
+                                                text-decoration: none;
+                                                /* margin-left: 2em; */
+                                                /* padding-left: 100%; */
+                                                /* padding-right: -100%; */
+                                            }
+                                            .fa-envelope {
+                                                color: white;
+                                            }
+                                            .fa-envelope:hover {
+                                                color: #AAA;
+                                            }
+                                            .fa-linkedin {
+                                                color: white;
+                                            }
+                                            .fa-linkedin:hover {
+                                                color: #AAA;
+                                            }
+                                            .fa-github {
+                                                color: white;
+                                            }
+                                            .fa-github:hover {
+                                                color: #AAA;
+                                            }
+                                            .fa-twitter {
+                                                color: white;
+                                            }
+                                            .fa-twitter:hover {
+                                                color: #AAA;
+                                            }
+                                            #navbar {
+                                                position: fixed;
+                                                background-color: rgba(20, 20, 20, 1);
+                                                width: 100%;
+                                                top: 0;
+                                                left: 0;
+                                                text-align: center;
+                                                line-height: 3;
+                                            }
+                                            #navbar ul {
+                                                list-style-type: none;
+                                                margin: 0;
+                                                padding: 0;
+                                            }
+                                            #navbar li {
+                                                display: inline-block;
+                                                font-family: 'Lexend', sans-serif;
+                                                font-size: 1.2em;
+                                                color: white;
+                                                width: 16.00%;
+                                            }
+                                            #navbar li a {
+                                                display: block;
+                                                color: white;
+                                                text-align: center;
+                                                text-decoration: none;
+                                                width: 100%;
+                                            }
+                                            #navbar li a:hover {
+                                                background-color: /*rgba(100, 100, 100, 0.5)*/
+                                                rgba(250, 20, 100, 0.5);
+                                            }
+                                            #education {
+                                                height: 60%;
+                                                margin-left: -2%;
+                                                margin-right: -2%;
+                                                margin-top: -2%;
+                                                background-image: linear-gradient(black, rgba(30, 30, 30, 1));
+                                            }
+                                            #education h2 {
+                                                padding-top: 5%;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: 2.2em;
+                                                color: #fff;
+                                                padding-left: 4%;
+                                            }
+                                            .card {
+                                                border-radius: 5px 5px 5px 5px;
+                                                background-color: rgba(70, 70, 70, 0.8);
+                                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+                                                margin-right: 5%;
+                                                margin-left: 6%;
+                                                margin-bottom: 4%;
+                                                margin-top: -2%;
+                                                font-family: 'Raleway', sans-serif;
+                                                color: white;
+                                                padding-top: 1%;
+                                                padding-left: 2%;
+                                                padding-bottom: 1%;
+                                                transition: 0.5s;
+                                            }
+                                            .card:hover {
+                                                margin-right: 5.3%;
+                                                margin-left: 5.7%;
+                                                margin-bottom: 4.3%;
+                                                margin-top: -2.3%;
+                                                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+                                            }
+                                            .lo {
+                                                line-height: 1px;
+                                                font-size: 1.24em;
+                                            }
+                                            .lt {
+                                                font-size: .8em;
+                                            }
+                                            .lth {
+                                                font-size: .75em;
+                                                line-height: 5px;
+                                            }
+                                            #projects {
+                                                height: 60%;
+                                                margin-left: -2%;
+                                                margin-right: -2%;
+                                                margin-top: -5%;
+                                                background-image: linear-gradient(rgba(30, 30, 30, 1), rgba(60, 60, 60, 1));
+                                            }
+                                            #projects h2 {
+                                                padding-top: 5%;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: 2.2em;
+                                                color: #fff;
+                                                padding-left: 4%;
+                                            }
+                                            .pcard {
+                                                float: left;
+                                                width: 20%;
+                                                border-radius: 20px 20px 20px 20px;
+                                                background-color: rgba(20, 20, 20, 1);
+                                                /*margin-right: 5%;
+    */
+                                                margin-left: 4%;
+                                                /*margin-bottom: 4%;*/
+                                                margin-top: -2%;
+                                                color: white;
+                                                /*padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1%;*/
+                                                box-shadow: 4px 4px 6px 0.5px rgba(20, 20, 20, 0.5);
+                                            }
+                                            .pcard img {
+                                                margin-top: 7%;
+                                                margin-left: 5%;
+                                                margin-right: 5%;
+                                                border-radius: 6%;
+                                            }
+                                            .pcard h4 {
+                                                font-family: 'Raleway', sans-serif;
+                                                text-align: center;
+                                                font-size: .756em;
+                                            }
+                                            .pcard p {
+                                                text-align: justify;
+                                                text-justify: inter-word;
+                                                padding-left: 5%;
+                                                padding-right: 5%;
+                                                font-family: 'Open Sans', sans-serif;
+                                                font-size: 0.5em;
+                                                margin-top: -2%;
+                                            }
+                                            .pcard button {
+                                                transition: 0.3s;
+                                            }
+                                            .pcard button:hover {
+                                                background-color: rgba(255, 255, 255, 0.7);
+                                                font-weight: 600;
+                                                border-width: 3px;
+                                            }
+                                            .try {
+                                                border: 2px solid rgba(200, 0, 80, 1);
+                                                background-color: transparent;
+                                                color: rgba(200, 0, 80, 1);
+                                                padding: 3%;
+                                                font-family: 'Roboto Mono', monospace;
+                                                font-size: 0.4em;
+                                                border-radius: 10px;
+                                                margin-left: 8%;
+                                                margin-bottom: 6%;
+                                            }
+                                            .github {
+                                                border: 2px solid rgba(200, 0, 80, 1);
+                                                background-color: transparent;
+                                                color: rgba(200, 0, 80, 1);
+                                                padding: 3%;
+                                                font-family: 'Roboto Mono', monospace;
+                                                font-size: 0.4em;
+                                                border-radius: 10px;
+                                                margin-left: 9%;
+                                                margin-bottom: 6%;
+                                            }
+                                            .onlygithub {
+                                                border: 2px solid rgba(200, 0, 80, 1);
+                                                background-color: transparent;
+                                                color: rgba(200, 0, 80, 1);
+                                                padding: 3%;
+                                                font-family: 'Roboto Mono', monospace;
+                                                font-size: 0.6em;
+                                                border-radius: 10px;
+                                                margin-left: 31%;
+                                                margin-bottom: 6%;
+                                            }
+                                            .python {
+                                                border: 1px solid rgba(200, 0, 80, 1);
+                                                background-color: transparent;
+                                                color: rgba(200, 0, 80, 1);
+                                                padding: 3%;
+                                                font-family: 'Roboto Mono', monospace;
+                                                font-size: 0.6em;
+                                                border-radius: 10px;
+                                                margin-left: 20%;
+                                                margin-bottom: 6%;
+                                            }
+                                            .kotlin {
+                                                border: 2px solid rgba(200, 0, 80, 1);
+                                                background-color: transparent;
+                                                color: rgba(200, 0, 80, 1);
+                                                padding: 3%;
+                                                font-family: 'Roboto Mono', monospace;
+                                                font-size: 0.6em;
+                                                border-radius: 10px;
+                                                margin-left: 9%;
+                                                margin-bottom: 6%;
+                                            }
+                                            #experience {
+                                                height: 60%;
+                                                margin-left: -2%;
+                                                margin-right: -2%;
+                                                margin-top: -5%;
+                                                background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(90, 90, 90, 1));
+                                                /* margin-bottom: 20%; */
+                                            }
+                                            #experience h2 {
+                                                padding-top: 5%;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: 2.2em;
+                                                color: #fff;
+                                                padding-left: 4%;
+                                            }
+                                            .ecard {
+                                                float: left;
+                                                width: 45%;
+                                                /* padding: 1%; */
+                                                margin-left: 4%;
+                                                border-radius: 20px 20px 20px 20px;
+                                                background-color: rgba(20, 20, 20, 0.7);
+                                                font-family: 'Raleway', sans-serif;
+                                                color: white;
+                                                transition: 0.5s;
+                                            }
+                                            .ecard:hover {
+                                                margin-left: 2.8%;
+                                                margin-top: -0.2%;
+                                                box-shadow: 4px 4px 5px 2px rgba(50, 50, 50, 0.8);
+                                            }
+                                            .ecard img {
+                                                float: left;
+                                                border-radius: 50%;
+                                                margin: 3%;
+                                            }
+                                            .textcard {
+                                                float: left;
+                                            }
+                                            #experience h4 {
+                                                font-weight: bold;
+                                                font-size: .70em;
+                                                line-height: 0.1;
+                                            }
+                                            #experience h5 {
+                                                font-size: .65em;
+                                                line-height: 0.1;
+                                            }
+                                            .below {
+                                                float: left;
+                                                margin-top: 3%;
+                                            }
+                                            .top {
+                                                float: left;
+                                                margin-bottom: 5%;
+                                            }
+                                            #skills {
+                                                height: 60%;
+                                                margin-left: -2%;
+                                                margin-right: -2%;
+                                                margin-top: -5%;
+                                                background-image: linear-gradient(rgba(90, 90, 90, 1), rgba(60, 60, 60, 1));
+                                            }
+                                            #skills h2 {
+                                                padding-top: 5%;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: 2.2em;
+                                                color: #fff;
+                                                padding-left: 4%;
+                                            }
+                                            #achievements {
+                                                height: 60%;
+                                                margin-left: -2%;
+                                                margin-right: -2%;
+                                                margin-top: 8%;
+                                                background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
+                                            }
+                                            #achievements h2 {
+                                                padding-top: 15%;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: 2.2em;
+                                                color: #fff;
+                                                padding-left: 4%;
+                                            }
+                                            #others {
+                                                height: 60%;
+                                                margin-left: -2%;
+                                                margin-right: -2%;
+                                                margin-top: 5%;
+                                                background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
+                                            }
+                                            #others h2 {
+                                                padding-top: 5%;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: 2.2em;
+                                                color: #fff;
+                                                padding-left: 4%;
+                                            }
+                                            #interests {
+                                                height: 80%;
+                                                margin-left: -2%;
+                                                margin-right: -2%;
+                                                margin-top: -7%;
+                                                background-image: linear-gradient(rgba(30, 30, 30, 1), rgba(0, 0, 0, 1));
+                                            }
+                                            #interests h2 {
+                                                padding-top: 5%;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: 2.2em;
+                                                color: #fff;
+                                                padding-left: 4%;
+                                            }
+                                            #certifi {
+                                                height: 60%;
+                                                margin-left: -2%;
+                                                margin-right: -2%;
+                                                margin-top: -2%;
+                                                background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
+                                            }
+                                            #certifi h2 {
+                                                padding-top: 5%;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: 2.2em;
+                                                color: #fff;
+                                                padding-left: 4%;
+                                            }
+                                            #ac {
+                                                height: 60%;
+                                                margin-left: -2%;
+                                                margin-right: -2%;
+                                                margin-top: 7%;
+                                                background-image: linear-gradient(rgba(30, 30, 30, 1), rgba(0, 0, 0, 1));
+                                            }
+                                            #ac li {
+                                                font-family: 'Raleway', sans-serif;
+                                                color: white;
+                                                font-size: .88em;
+                                                line-height: 3;
+                                            }
+                                            .cio {
+                                                border: 2px solid rgba(200, 0, 80, 1);
+                                                background-color: transparent;
+                                                color: rgba(200, 0, 80, 1);
+                                                font-family: 'Merriweather', serif;
+                                                font-size: 0.2em;
+                                                padding: 0.5%;
+                                                margin-left: 2%;
+                                                border-radius: 5px;
+                                                transition: 0.5s;
+                                            }
+                                            .cio:hover {
+                                                background-color: rgba(200, 0, 80, 1);
+                                                color: #fff;
+                                            }
+                                            .icard {
+                                                float: left;
+                                                width: 30%;
+                                                border-radius: 20px 20px 20px 20px;
+                                                background-color: rgba(255, 255, 255, 1);
+                                                margin-right: 5%;
+                                                margin-left: 4%;
+                                                margin-bottom: 4%;
+                                                margin-top: -2%;
+                                                color: black;
+                                                padding-top: 1%;
+                                                padding-left: 2%;
+                                                padding-bottom: 1%;
+                                            }
+                                            .icard .dp {
+                                                float: left;
+                                                border-radius: 50%;
+                                                margin-left: 4%;
+                                                margin-top: 4%;
+                                            }
+                                            .icard .un {
+                                                float: left;
+                                                margin-left: 5%;
+                                                font-family: 'Lato', sans-serif;
+                                            }
+                                            .icard .caption {
+                                                padding-left: 4%;
+                                                padding-right: 4%;
+                                                margin-top: 3%;
+                                                margin-bottom: 5%;
+                                                font-size: 0.65em;
+                                                font-family: 'Lato', sans-serif;
+                                            }
+                                            .row {
+                                                margin-top: -2%;
+                                                width: 100%;
+                                                background-image: linear-gradient(to right, rgba(120, 120, 120, 1), rgba(0, 0, 0, 1), rgba(120, 120, 120, 1));
+                                                color: white;
+                                                text-align: center;
+                                            }
+                                            .row h4 {
+                                                padding-top: 1.1%;
+                                                margin-bottom: -0.7%;
+                                                font-family: 'Overpass', sans-serif;
+                                                font-size: 1em;
+                                                line-height: 1;
+                                            }
+                                            .row p {
+                                                padding-bottom: 1.1%;
+                                                font-family: 'Lato', sans-serif;
+                                                font-size: .76em;
+                                                line-height: 1;
+                                            }
+                                            .links {
+                                                margin-top: 2%;
+                                                margin-left: 4.5%;
+                                            }
+                                        }
